@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Saveur Restaurant</title>
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <a href="#" class="logo">SAVEUR</a>
+      <nav>
+        <a href="/menu.html">Menu</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn-outline phone-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 0.5rem;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          (555) 123-4567
+        </button>
+        <button class="btn btn-primary">Reserve a Table</button>
+        <button class="menu-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="/img/ai-generate/hero.jpg" alt="Restaurant interior" class="hero-image">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1 class="hero-title">A Culinary Experience</h1>
+        <p class="hero-description">Elegant dining with locally-sourced ingredients and seasonal flavors</p>
+        <div class="hero-buttons">
+          <button class="btn btn-primary btn-lg">Reserve a Table</button>
+          <button class="btn btn-white-outline btn-lg">
+            View Menu
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 0.25rem;"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Our Story</h2>
+            <div class="separator"></div>
+            <p class="section-description text-muted">
+              Founded in 2010, Saveur began as a small family restaurant with a passion for authentic flavors and
+              exceptional dining experiences. Our philosophy is simple: use the finest ingredients, prepare them with
+              care, and serve them in an atmosphere of understated elegance.
+            </p>
+            <p class="section-description text-muted">
+              Today, under the guidance of award-winning Chef Marie Laurent, we continue to innovate while honoring
+              culinary traditions. Each dish tells a story of seasonal ingredients, thoughtful preparation, and
+              artistic presentation.
+            </p>
+          </div>
+          
+          <!-- Added two food images side by side -->
+          <div class="story-images">
+            <div class="story-image">
+              <img src="/img/ai-generate/our_story1.jpg" alt="Signature dish">
+            </div>
+            <div class="story-image">
+              <img src="/img/ai-generate/our_story2.jpg" alt="Chef special">
+            </div>h
+          </div>
+        </div>
+      </section>
+
+    <section id="menu" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Our Menu</h2>
+          <div class="separator"></div>
+          <p class="section-description text-muted">
+            Our seasonal menu celebrates the finest local ingredients, prepared with precision and creativity.
+          </p>
+        </div>
+
+        <div class="menu-grid">
+          <div class="menu-category">
+            <h3 class="menu-category-title">Starters</h3>
+            <div class="menu-items">
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <span>Heirloom Tomato Salad</span>
+                  <span>$14</span>
+                </div>
+                <p class="menu-item-description">Fresh basil, aged balsamic, extra virgin olive oil</p>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <span>Seared Scallops</span>
+                  <span>$18</span>
+                </div>
+                <p class="menu-item-description">Cauliflower purée, brown butter, toasted hazelnuts</p>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <span>Wild Mushroom Tart</span>
+                  <span>$16</span>
+                </div>
+                <p class="menu-item-description">Thyme, shallots, aged gruyère, truffle oil</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-category">
+            <h3 class="menu-category-title">Main Courses</h3>
+            <div class="menu-items">
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <span>Pan-Roasted Salmon</span>
+                  <span>$32</span>
+                </div>
+                <p class="menu-item-description">Spring peas, mint, preserved lemon, asparagus</p>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <span>Grass-Fed Ribeye</span>
+                  <span>$42</span>
+                </div>
+                <p class="menu-item-description">Herb butter, roasted garlic, seasonal vegetables</p>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <span>Wild Mushroom Risotto</span>
+                  <span>$28</span>
+                </div>
+                <p class="menu-item-description">Arborio rice, parmesan, white truffle oil, chives</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-category">
+            <h3 class="menu-category-title">Desserts</h3>
+            <div class="menu-items">
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <span>Dark Chocolate Soufflé</span>
+                  <span>$12</span>
+                </div>
+                <p class="menu-item-description">Vanilla bean ice cream, salted caramel</p>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <span>Lemon Tart</span>
+                  <span>$10</span>
+                </div>
+                <p class="menu-item-description">Fresh berries, crème fraîche, candied lemon</p>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <span>Seasonal Fruit Pavlova</span>
+                  <span>$11</span>
+                </div>
+                <p class="menu-item-description">Meringue, whipped cream, seasonal fruit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="view-menu">
+          <button class="btn btn-outline btn-lg" a href="/menu.html">
+            View Full Menu
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 0.25rem;"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Gallery</h2>
+          <div class="separator"></div>
+          <p class="section-description text-muted">
+            A glimpse into our culinary creations and dining atmosphere.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="/img/ai-generate/food/food1.jpg" alt="Gallery image 1" class="gallery-image">
+          </div>
+          <div class="gallery-item">
+            <img src="/img/ai-generate/food/food2.jpg" alt="Gallery image 2" class="gallery-image">
+          </div>
+          <div class="gallery-item">
+            <img src="/img/ai-generate/food/food1.jpg" alt="Gallery image 3" class="gallery-image">
+          </div>
+          <div class="gallery-item">
+            <img src="/img/ai-generate/food/food2.jpg" alt="Gallery image 4" class="gallery-image">
+          </div>
+          <div class="gallery-item">
+            <img src="/img/ai-generate/food/food1.jpg" alt="Gallery image 5" class="gallery-image">
+          </div>
+          <div class="gallery-item">
+            <img src="/img/ai-generate/food/food2.jpg" alt="Gallery image 6" class="gallery-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Make a Reservation</h2>
+          <div class="separator"></div>
+          <p class="section-description text-muted">
+            Join us for an unforgettable dining experience. Reservations recommended.
+          </p>
+        </div>
+
+        <form class="reservation-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="Your email">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date" class="form-label">Date</label>
+              <input type="date" id="date" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="time" class="form-label">Time</label>
+              <select id="time" class="form-control">
+                <option value="">Select a time</option>
+                <option value="17:30">5:30 PM</option>
+                <option value="18:00">6:00 PM</option>
+                <option value="18:30">6:30 PM</option>
+                <option value="19:00">7:00 PM</option>
+                <option value="19:30">7:30 PM</option>
+                <option value="20:00">8:00 PM</option>
+                <option value="20:30">8:30 PM</option>
+                <option value="21:00">9:00 PM</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="guests" class="form-label">Number of Guests</label>
+              <select id="guests" class="form-control">
+                <option value="">Select number</option>
+                <option value="1">1 person</option>
+                <option value="2">2 people</option>
+                <option value="3">3 people</option>
+                <option value="4">4 people</option>
+                <option value="5">5 people</option>
+                <option value="6">6 people</option>
+                <option value="7+">7+ people</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone</label>
+              <input type="tel" id="phone" class="form-control" placeholder="Your phone number">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="special-requests" class="form-label">Special Requests</label>
+            <textarea id="special-requests" class="form-control" placeholder="Any special requests or dietary requirements"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary form-submit">Reserve Now</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3 class="footer-title">SAVEUR</h3>
+          <p class="footer-text">
+            123 Culinary Avenue<br>
+            Gourmet City, GC 12345
+          </p>
+        </div>
+        <div>
+          <h3 class="footer-title">Hours</h3>
+          <p class="footer-text">
+            Monday - Thursday: 5:30pm - 10:00pm<br>
+            Friday - Sunday: 5:00pm - 11:00pm<br>
+            Lunch: Saturday & Sunday 11:30am - 2:00pm
+          </p>
+        </div>
+        <div>
+          <h3 class="footer-title">Contact</h3>
+          <p class="footer-text">
+            Phone: (555) 123-4567<br>
+            Email: reservations@saveur.com
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">Facebook</a>
+            <a href="#" class="social-link">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        © <script>document.write(new Date().getFullYear())</script> Saveur Restaurant. All rights reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
